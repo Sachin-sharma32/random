@@ -33,6 +33,29 @@ Q. how to track newly added file
 -> git log -- /react.txt (commits that changed this file)
 -> git log --no-merges (non merged commits)
 
+(making changes to previous commit)
+git commit -m "six"
+git add index.txt
+git commit --amend --no-edit (add index.txt to commit)
+git commit --amend -m "changed six" (change name of commit)
+
+-> git reset HEAD index.txt (un-stage file)
+-> git checkout -- index.txt (discard changed made after commit)
+-> git remote -v (hosted repo)
+-> git fetch origin (pull changes into local repo, works for cloned repo also)
+-> git pull (if only one remove repo)
+-> git remote show origin (info about remote)
+-> git remote rename origin sachin
+-> git remote rm origin
+
+-> git tag
+-> git tag -l 1.0 (list all tags starting with 1.0)
+Q. what are 2 types of tags in git
+Q. git tag -a v1.0 -m "first tag"
+
+
+
+
 
 
 
