@@ -89,7 +89,9 @@ Q. git-1.png -> what will we merge iss91v2 and dumbidea and them merge dumbidea 
 -> remote tracking branch does not change on your computer if someone pushes commit
 -> git fetch origin (sync remote work on local)
 -> can add multiple remote url (git remote add tracking {url}), git fetch tracking now does not change the code to the new remote but it add a new remote tracking branch (eg -> tracking/master)
--> 
+-> git push origin sachin:main (push local "sachin" into remote "main")
+a
+
 
 
 
