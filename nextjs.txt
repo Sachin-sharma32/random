@@ -1,0 +1,120 @@
+Q. does nextjs replace or combine client and server side rendering
+Q. does SSR reduce client js bundle
+Q. are all the components inside app folder server components
+Q. what are client components based on pre-rendering and hydration in nextjs
+Q. how to make a components client component in app folder 
+Q. does all the modules and child of client components also included in client bundle
+Q. do I need to define add "use client" to the children of client component as well
+Q. which of the one type of component where we should do data fetching, interaction with db
+Q. which of the one type of component supports interactivity, using hooks, custom hooks, browser apis
+Q. can we use class components inside server components
+Q. what to do if a small part of server component has to be interactive
+Q. can server components import client components
+Q. where does rendering and hydration of client and server components happen, how is it different from initial load
+Q. can we import a server component inside client component, what is the walk around
+Q. does a component has knowledge of what it's props are, does the same strategy is used in 'lifting state up' to prevent parent's re-render
+Q. do we need to serialize functions and objects when passed from server to client component
+Q. what does nextjs does with private env variables on the client
+Q. which keyword will make env variable public in nextjs, why we shouldn't do it often
+Q. why client component should not use/import server side code
+Q. which npm package we should import inside server code to give error in development when we use server code inside client component
+Q. what error we will get if we use npm package inside server component, how to fix that
+Q. does server components have their own state, can we create/use context within server components, if not then how can we fix this
+Q. what is singleton pattern in javascript, explain with help of db example
+
+Q. can we use app router alongside page router, which one has more priority
+Q. how to create routes in nextjs (1point)
+Q. can we use component,style files inside route folder
+Q. how to make the route publicly accessible (1point)
+Q. how to create nested routes in nextjs (1point)
+Q. which type of routing page router use, what about app router
+Q. why is the benefit of using server routing in requesting server components, what about caching
+Q. what type of navigation app router use (client or server), which component is used to perform
+! how client side navigation resemble single page application, what is the technique called, is it related to virtual dom
+Q. difference between routing and navigation
+Q. what is partial rendering in nextjs (1point)
+Q. can page.tsx be converted into client component
+Q. what is the use of layout.tsx (1point)
+Q. does layout.tsx preserve it's state when navigating between children
+Q. does layout.tsx re-renders when navigating
+Q. what are the 2 tags that root layout should contain
+Q. does child route uses layout of parent
+Q. can layout be converted into client component, what about root layout
+Q. can data be passed from parent layout to children, does react dedupe if we make a fetch request in parent and children
+Q. what are the 2 files root layout replace for page router
+Q. what is the 2 difference between layout.tsx and template.tsx
+Q. will suspense boundary show fallback every time navigating between children in template, what about layout
+
+Q. what are the 2 ways to navigate in nextjs
+Q. useRouter or LInk, which one prefetch a route, when is a route prefetched
+Q. which nextjs hook is used to find the name of current path
+Q. how to navigate within to an id in nextjs
+Q. does useRouter work inside server components
+Q. which is better <Link> or useRouter
+Q. while routing does nextjs cache common components of both routes
+Q. what is the 1 difference between hard and soft navigation
+Q. what are the 5 steps which happen during navigation in nextjs
+Q. is prefetching available in development, how to disable prefetching in <Link>
+Q. difference in prefetching in Server and Client components
+Q. does soft navigation work on dynamic routes, what about /hello/* to /hello/*  and  /hello/* to /hello-sachin/*
+Q. soft or hard navigation if we use browser back and forward button
+
+Q. what is the naming convention to create route groups
+Q. what is the use of route groups (1point)
+Q. can we create layout.tsx for each parallel route segments
+Q. can we create root layout for each parallel route segments, how will this affect the principle of single page application, what happen to layout.tsx of app folder, where should we define the root page.tsx then
+Q. can we use same routes in difference parallel route segments
+Q. is the name of route group included in url
+Q. naming convention for dynamic routes, how to access the params in page.tsx
+Q. difference between [] and [...]
+Q. how to make catch all segments optional
+Q. what is the difference between catch all segments and optional catch all segments
+
+Q. which react components loading.tsx uses under the hood
+Q. what navigation behavior does loading.tsx change
+Q. what type of component error.tsx should be
+Q. what are the 2 props error.tsx accept
+Q. what does reset prop do (1point), does it reload or re-render the page
+Q. which react component error.tsx uses under the hood
+Q. will error.tsx catch error inside layout.tsx in the same level, how to catch error inside layout.tsx, what about root layout.tsx
+Q. which will apply among error.tsx and global-error.tsx
+Q. does global-error.tsx catch error in entire application
+Q. which 2 html element global-error.tsx must include
+Q. how to catch error inside Server components
+
+
+
+Q. what is the use of parallel routing
+Q. does parallel routes have their separate loading and error states 
+Q. what is the naming convention for parallel routes
+Q. what changes we need to make in layout.tsx to add slots
+Q. what will /@team/settings correspond to in url
+Q. what is the use of default.tsx in parallel route slots (1point), which one is triggered during hard and soft navigation
+! what does useSelectedLayoutSegment does (1point)
+Q. can parallel routing be used to render modals
+Q. what we render the slots conditionally
+Q. what is the use of intercepting routes (1point)
+Q. how is intercepting route word with parallel routing to create modals
+Q. what is the 4 file convention for modals
+Q. what if we refresh the page in intercepting routes, modal or actual page will appear
+
+Q. are the nextjs apis hosted on serverless functions on vercel
+Q. what are the 3 problem with serverless function and why we should not use nextjs route handlers
+Q. how to make private folders like components and utils inside app folder 
+Q. what is the convention to indicate a file is private component in nextjs if it is outside private folder 
+
+Q. what is the difference between static and dynamic rendering (1point), which one does nextjs does by default in app folder
+Q. what is the use of dynamic functions in nextjs (1point), give one example of dynamic function
+Q. if a component become dynamically rendered using dynamic functions what all components it will cause to also dynamically render, how to reduce the scope/area of dynamic rendering in this case
+Q. what is meant by nextjs runtime
+Q. what are the 2 runtimes available in nextjs, which one is the default one
+Q. which one is faster with low latency and minimal npm support
+Q. which one is scalable with full npm support
+Q. can we define different runtimes for each routes in nextjs, how
+Q. what is the alternative to nextjs' data fetching 
+
+Q. best feature of <Image/> (1point)
+Q. on which image we have to provide height/width local or remote
+Q. can we set priority of image for loading, how
+Q. in which file environment variable are declared in nextjs
+Q. should we initially define null in useRef, how to throw error if ref is not set by us

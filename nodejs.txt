@@ -1,0 +1,44 @@
+Q. is nodejs single threaded
+Q. how nodejs achieves asyncronous behavour 
+Q. which type of connection is established between client and server
+Q. what is the role of TCP and IP
+Q. different between server and client side rendering (1point)
+Q. what 2 things is nodejs build of
+Q. what 2 things libuv provides to nodejs
+q. what is the relationship between program, process and thread
+Q. what are the 3 things which happen inside the thread of nodejs and what is the order of their execution
+Q. how does event loop, callback queue and thread pool work together
+Q. on what type of architecture nodejs is based on
+Q. explain event driven architecture with help of app.get('/',(req,res)=>{------------})
+Q. what are the 3 stages in event driven architecture
+Q. what does streams do in nodejs (1point)
+Q. what are the 4 type of streams in nodejs
+q. which type of module system nodejs use
+Q. which type of module system is used in browsers
+Q. what are the 5 steps which happen when we require() module in nodejs
+Q. what are the 4 steps nodejs takes to resolve modules
+Q. what happens in the wrapping stage of module resolution, where does require() come from
+
+Q. what does APIs do (1point)
+Q. full form of REST and API
+Q. what are the 5 principles of REST
+Q. give REST url structure for deleteTourByUser
+Q. should resource name in url be singular or plural
+Q. give example of JSend response format in REST 
+Q. explain stateless with help of nextpage example
+Q. what is middleware in nodejs
+Q. is everything in nodejs a middleware
+
+Q. what are the 2 parts in mongodb
+Q. which document structure does mongodb use
+q. difference between json and bson (2point)
+Q. what are the 2 parts of mongoose 
+q. what are the 3 pillars of MVC architecture
+Q. difference between models and controllers (1point) - explain with help of validation, sorting, responding
+Q. models vs controllers - where should we put most of the logic
+Q. best way to handle errors in nodejs (1point)
+Q. what are the 4 types of relations between data
+Q. name the 2 type of data modeling, what are their other names
+Q. what is the advantage and disadvantage of referencing and embedding (1point)
+Q. what are the 3 conditions on which we should decide either use referencing or embedding
+Q. what are the 3 type of referencing and when to use which one

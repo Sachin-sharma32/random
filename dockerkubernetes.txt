@@ -1,0 +1,82 @@
+Q. what is docker (1point)
+Q. what is the 2 things a container is 
+Q. are containers available on OS, what does docker does
+Q. do we need docker for creating and managing container
+Q. why we need containers (3points)
+Q. are virtual machines OS on top of host OS
+Q. what are the only 3 disadvantage of virtual machine over containers
+Q. describe the structure of docker in an OS
+Q. is docker engine heavy
+Q. what docker part enable us to run build and manage containers on OS
+Q. what does docker desktop installs
+Q. when working with nodejs do we need to install nodejs locally on our system
+Q. what is an image 
+Q. what contains the environment and what is the running instance of the environment
+Q. can image run multiple containers
+Q. run a docker container based on node image
+Q. how to list all docker containers
+Q. how to expose node repl using docker run command, is it running in container or OS
+Q. which file is used to define docker image
+Q. which command is used to build on top of node image in Dockerfile
+Q. explain COPY . .
+Q. copy in app folder in docker file system
+Q. which command is used to run "npm imstall" when image is created, where will it look for package.json in file system, which command is used to change it, do we need to change COPY . /app 
+Q. which command is used to run "node index.js" when container runs
+Q. will we be able to access node app which exposes localhost:8000, which command is used to expose 
+Q. what is will be the order of all the commands till now
+Q. which command is used to create docker image
+Q. which command is used to run container from build image
+Q. which command is used to see only running containers
+Q. how to stop a running container
+Q. which command is used to expose local port to run nodejs app on
+Q. docker EXPOSE 80 does anything
+Q. do we need to write the whole id to run container
+Q. what if we make changes in our app code
+Q. does running docker build . builds a news image every time
+Q. what are layers
+Q. optimize the Dockerfile for sinerio where we make changes to app code
+Q. which flag is used to see all options of a command
+Q. command -> start a stopped container
+Q. "docker run" starts the container in attached or deteched mode, what about "docker start", how to run in deteched mode
+Q. how to run in attached mode in running container
+Q. how to see all past logs of container
+Q. how to continuously listen for logs in container
+Q. how to start container in attached mode 
+Q. which flag expose a terminal if app require user input, what if we are starting a stopped container
+Q. how to remove a container, can we remove a running container
+Q. how to list all images
+Q. how to remove image, can we remove image if it's container is running
+Q. how to remove all images whose container's aren't running
+Q. how to automatically remove container after it is stopped
+Q. how to get more details about an image
+Q. how to copy files and folders from and into container 
+Q. how to give name to docker container
+Q. how to give name to docker image, what are the 2 parts on nameing image
+Q. how to push,pull docker image on docker hub
+Q. how to rename a image
+
+Q. what are the 3 kind of data in container
+Q. what is used to store permanent data in container
+Q. if a todo list is strong data, will it be lost if we removed the container, what if we stop the container and restart
+Q. what is used to solve this problem
+Q. what are volumes in docker
+Q. what are the 2 type of volumes in docker, what is their difference (1point)
+Q. can we edit data in volumes, why not
+Q. how to add anonymous volume in Dockerfile
+Q. how to list all volumes
+Q. how to create named volumes
+Q. how to remove a volume
+Q. how to remove all volumes
+Q. what is the 1 difference between volume and bind mount in place where it is created
+Q. what is the 1 difference between volume and bind mounts in terms of editability
+Q. how to create bind mount
+Q. can we use multiple "-v" commands when running container
+Q. what is the use of bind mount in development
+Q. will the bind mount in local machine override all the code in container
+Q. since we don't run npm install on local machine packages will not be available in container and:
+COPY package.json .
+RUN npm install 
+COPY . .
+will be overridden, will extra volume can we add to solve this problem
+Q. does docker give more priority to deeper file path, what's it's use when using bind mounts and anaonymous volume together
+Q. 

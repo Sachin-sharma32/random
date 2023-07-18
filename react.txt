@@ -1,0 +1,253 @@
+Q. what is a component (1points) (button, page)
+Q. is component reusable
+Q. what is technically a component (1point)
+Q. what is 1 the naming rule for component
+Q. 3 steps of making a component
+Q. should a component "define" other component inside it, what is the better approach
+Q. is JSX required for react
+Q. how to display javascript inside jsx, what can be placed inside {}
+Q. why use {{}} in style attribute
+Q. 3 ways to conditionally render jsx
+Q. which method is used to render list in jsx
+Q. why we have to use key when using map method, explain using folder without name and refering them with number and deleting example
+Q. what are the 2 rules for key in react
+Q. why does react use if you don't provide key by default
+Q. what is the pitfall of using index as keys
+
+Q. what is the use of useState (1point)
+Q. what is the naming convention for hooks (1point)
+Q. can we write our own hooks
+Q. where should hooks be called
+Q. what if we want to use hooks inside conditional or loop
+Q. what is the name in react for "data that changes over time"
+Q. what is called "component-specific memory"
+Q. how to share state between components (1point)
+Q. how is data passed from parent to child (1point)
+Q. what is the process of moving the state to parent called
+Q. should we generate keys dynamically, if not then why
+Q. does the keys can be received as props in component
+Q. explain the 5 steps of implementing UI in react
+Q. should each component do only one thing, what if it exceeds and does multiple things
+Q. what is top-down and bottom-up approach, which one to use when
+Q. what is one way data flow in react
+Q. what is two way data binding, how to implement it
+
+Q. which is more stricter html or jsx
+Q. what are the 3 rules for jsx
+Q. why there can't be multiple root elements in jsx
+Q. are props immutable, what should be the only way to mutate props
+Q. can we put a number in left side of &&, if not then why
+Q. why to use fragments instead of div
+
+Q. 2 things which make functions pure in react, should components be pure in react
+Q. how to detect impure functions in react (1point)
+Q. is <React.StrictMode> enabled by default in nextjs
+q. what is local mutation in react
+Q. what are side effects in react, are they executed during rendering, which hook is used to perform side effect
+
+Q. what is 1 the naming convention of event handlers in react
+Q. why do we not add () to event handlers
+Q. what is the 1 naming convention for event handlers passed as props
+Q. what is event propagation (1point), how to stop it
+Q. what naming convention is used to make a event handlers follow "capture" phase 
+Q. how to prevent default behavior of browsers in event handlers
+Q. does event handlers produces side effects
+Q. are event handlers pure functions in react
+
+Q. what is the 1 thing that triggers component re-render in react
+Q. 2 reasons why we cannot use regular variables to update UI, which hook solves this
+Q. what are the 2 rules for hooks
+Q. how does react knows which state to return if there are multiple states in a component
+Q. does each component has a separate state
+Q. does each copy of component has separate state
+
+Q. what are the 3 step of serving the ui to the browser
+Q. what are the 2 reasons for a component to render
+Q. which 2 react methods are responsible for triggering initial render
+Q. what is Rendering in react
+Q. which component does react calls during initial and re-render respectively
+Q. what is the behavior of react towards dom during initial and re-render in rendering phase
+Q. in which step during the react makes changes in the dom or create the dom during initial render
+Q. which javascript method does react use to put all the dom nodes together in commit stage
+Q. what will browser do after all the 3 steps of serving ui is completed
+Q. what will happen if you setState(num + 1) 3 times in a onClick handler, initial value is 0, explain why, what is state snapshot says
+
+Q. what is batching in react
+Q. does react batch across multiple events like click
+Q. which fn is used update the state multiple times (line 71)
+Q.  <button onClick={() => {
+        setNumber(number + 5);
+        setNumber(n => n + 1);
+      }}>Increase the number</button>, what will happen in this case, explain with help of queued update (replace with 5, n=>n+1), n and return table
+Q. when is the 1 naming convention of updater fn argument
+
+Q. explain immutation and mutation in useState with help of premitive and reference data types
+Q. should we never mutate reference data types of useState, what should we do instead
+Q. explain how to use single useState and single handler for multiple fields
+Q. is it true that object are not nasted, explain with example
+Q. which library to use if we want to update objects in the "mutatable" format
+Q. which method create a copy of array splice or slice
+Q. does mutation work the same way for array as with object
+Q. if we create new array  using spread operator from state which contains object, does it mutate the new array's objects, why, which array method can be used to actually update objects inside array
+Q. does immur work with array
+Q. how does immur achieves immutablity while still providing mutable syntex
+
+Q. what are the 2 approaches for updating UI, explain with help of driver example
+Q. in react what approach we take to update the UI
+Q. what are the 5 steps to decleratively implement UI in react
+Q. what is the best way to visually represent different states, explain using form example
+Q. what is storybook (1point)
+Q. what are the 5 principle for structuring a state ([x,y], [sending,sent], [firstname,lastname], [data,index], [nasted, flat])
+Q. what is the process of removing nasting called
+Q. what is the problem with mirror props in react
+Q. what is controlled and uncontrolled components in react (1point), which one is more flexible
+Q. what is the principle of single source of truth in react (1point)
+Q. what will happen to the state of components if you remove the component and add it back later
+Q. does the same component at the same position in dom tree preserve the state (border, no border)
+Q. does different components at the same position preserve the state, does it reset the state of subtree as well
+Q. what are the 2 ways to reset state when switching between same component at same position in dom tree
+
+Q. what does useReducer do (1point)
+Q. what are the 2 parameters useReducer accepts
+Q. what are the 2 values useReducer return
+Q. what are the 2 main components of reducer
+Q. can we use reducers with immer
+Q. compare useState and useReducer on the basis of code size and readability
+
+Q. what is the problem of prop drilling
+Q. what is the use of useContext, does it works on parent to child, what is it alternative to 
+Q. which method is used to create a context, what is the argument this method accept
+Q. how can child access this value of context
+Q. what parameter does useContext accepts
+Q. what needs to be done in the parent so that the context is available
+Q. can children update the value of context
+
+Q. when combining context and reducer together what are the 2 contexts we should create
+Q. how to make the context provider look clean
+Q. how to make the useContext look clean and give more meaning to it
+
+Q. what is meant by escape hatch in react
+Q. what 1 point makes useRef different from useState, which method is used to access current value of ref
+Q. what 1 point makes useRef similar to useState
+Q. is useRef a javascript object
+Q. how useRef compares to useState in terms of snapshots, mutation
+Q. what is the most common use case of useRef
+Q. how to scrollInoView using useRef
+Q. why can't we use ref in other component by passing it as props, which react feature solves this issue
+Q. which hook is used if I want to restrict parent to only apply specific dom manipulation methods on it when parent passed the ref to child
+Q. does react attach refs to element during which stage and why
+Q. what is the value of ref.current during rendering
+Q. explain use of flushSync with help of todo scrolling problem
+Q. should we manually add/remove elements and children in dom using useRef, why not
+
+Q. when does useEffect run, before/during/after rendering
+Q. what does side effects do (1point)
+Q. what is the 1 difference between Effects and events 
+Q. does Effects run after commit stage and after the screen updates
+Q. is useEffect a escape hatch
+Q. what are the 3 parts of useEffect
+Q. should we not do anything with dom which it is rendering with useRef, when and where should we do it than
+Q. does useState immediately inside useEffect cause infinite loop, why
+Q. what does useEffect dependencies do (1point)
+Q. should all dependencies  change or only one for running useEffect callback during re-render
+Q. should we add ref or useState as a useEffect dependency, what if the ref,state is passed from parent, are they called always stable dependencies
+Q. difference between no dependency, empty dependency and no-empty dependency
+Q. what is meant by mounting of component
+Q. when should we use cleanup function in useEffect, what should the cleanup function do, explain with help of 2 connecting... console messages when going to other screen and comming back
+Q. does useEffect is called twice in development after re-render, what about production
+Q. explain the 3 downfalls of fetching data in useEffect, how nextjs solve the first problem, which library solves the 3rd problem
+Q. when does cleanup functions run, explain with help of - initial render, 2 time skip, 3rd time run, what if user navigate away after 3rd time useEffect run
+Q. should we use useEffect to handle user event, where should we do it
+Q. should we use useEffect to transform data, eg. filtering, where should we do it
+Q. which hook should we use to cache expensive computation
+Q. what are the 2 arguments useMemo accept
+Q. when does in which stage useMemo run
+Q. should we reset all the state of a components if it's props change, what is the alternative
+
+Q. what are the 3 stages in lifecycle of component
+Q. when the component is not on the screen will it unmount
+Q. if the dependencies don't change then will the useEffect stay connected to the same room for example
+Q. should we separate unrelated Effects in different useEffects
+Q. what 3 are reactive values and what is re-synchronizing in useEffect
+Q. what 2 options I have if I don't want to add components variables as dependencies to tell react that they will never change during re-render
+Q. why should we not add objects or function as useEffect dependencies
+Q. is the logic inside event handler reactive based on reactive values
+Q. what are Effect Event, which hook is used to separate events from effects, explain with help of chat room, theme example
+Q. can we call effect event outside useEffect
+Q can we pass effect event as props
+Q. since objects and functions will be different after every re-render even if their values don't change and we should not use them as dependencies of useEffect, how to solve this
+Q. what if the parent sends an object as props, how to avoid unnecessary re-renders in this case, what about functions
+
+Q. what is use of custom hooks (1point)
+Q. does custom hooks extracts duplicate code or logic
+Q. which custom function should start with name "use" (1point)
+Q. is the state of custom hook duplicated or re-used if 2 components use it
+Q. does custom hooks re-render if the component which is using it re-render  
+Q. can custom hooks cause re-render of the component using it
+Q. which react hook should be most often extracted into custom hook
+
+Q. what is the use of useCallback function (1point)
+Q. what are the 2 arguments it accepts 
+Q. does a child component re-render if it's parent re-render
+Q. does a children re-render if it's props don't change, which hook solves this problem
+Q. if the prop is a function will the child re-render if parent re-renders, which hook will solve this problem
+Q. what is the only difference between useMemo and useCallback
+Q. what are the only 2 situations where you should use useCallback
+Q. does excessive memoization harm performance
+Q. which is a better option, 1) memoizing function which is passed as dependency to useEffect, 2) moving the fn inside useEffect
+Q. how to optimize custom hooks with useCallback (1point)
+
+Q. what is concurrency in react (1point), which 2 hook is used to handler concurrency in react 
+Q. what is the use of useTransition hook, explain with help of filtering 1000's of products while typing in input
+Q. what are the 2 values useTransition return
+Q. what is meant by debouncing and throttling, explain with help of typing example
+Q. how to achieve debouncing in react, typing in input and fetching data from server example, why cleanup function with clearTimeout is very important in this case
+Q. what is the only difference between useTransition and useDeferredValue, explain with the same example (useTransition example)
+Q. what is the one parameter useDeferredValue accept
+
+Q. explain the importance of aria-describeby attribute for accessability with example
+Q. what does useId hook does
+Q. should we use unique id generated by useId as list keys, if not then why
+Q. what is the only difference between useLayoutEffect and useEffect in of when it runs
+Q. why we should rarely use useLayoutEffect
+Q. what is the use of Profiler component in react, does it also measure the performance of children as well
+Q. what are the 2 props of Profiler component
+Q. what is the onRender method used for (1point)
+
+Q. what are the 3 development only behavior <StrictMode> provides
+Q. why does StrictMode renders the component multiple times
+Q. does StrictMode work in production
+Q. does strictMode accepts any props
+
+Q. what is the benefit of SSR
+Q. what is "hydration" related to SSR
+Q. does all the SSR generate html is sent to the client at once, which react component solves this problem
+Q. does hydration happen for the entire app at once, what is the problem with that
+Q. how does Suspense solve this problem (1point), what was the older approach of solving this
+Q. what is the problem with SSR related to data fetching in components
+Q. does Selective hydration happen sync or async
+Q. will the bundle whose UI is clicked be hydrated before others
+Q. what is the only prop that Suspense accepts
+
+Q. what is the only difference between startTransition and useTransition in terms of return values
+Q. what is the only difference between startTransition and useTransition in terms of where it can be used
+
+Q. does createPortal physically move the element to the new parent, does elements in portal acts like a normal child of actual parent (where it is written)
+Q. what are the 2 parameters createPortal accepts
+Q. does a portal escapes the styling of all the parents, does it helps to make the modal sticky
+Q. can createPortal help of render custom elements inside 3red party libraries
+
+Q. what is composition in react
+Q. can functional components create error boundary
+Q. does error boundary also catch error in children
+Q. does error boundary work with server side rendered component
+Q. does error boundary catch error in it's code itself
+Q. does it work with eventHandler or async code
+Q. is HOC and render props replaced by Custom Hooks
+
+
+q. what is virtual dom in react (1point)
+Q. does react update the dom or virtual dom when state change
+Q. why can't we just update the real dom
+Q. what is virtual dom diffing
+Q. what is the entire process in these 4 lines called
