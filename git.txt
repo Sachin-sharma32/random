@@ -22,6 +22,8 @@ Q. how to track newly added file
 -> git difftool 
 -> git commit -a (stage and commit with files from previous commit)
 -> git rm index.js (untracked)
+-> git rm --cached index.js (untrack but don't delete)
+
 
 
 
