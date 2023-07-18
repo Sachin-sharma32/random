@@ -70,6 +70,8 @@ Q. explain what happen when you create commit in new branch with diagram
 -> git log --oneline --decorate --graph --all
 -> git checkout -b testing (create and switch)
 -> git merge testing (merge changes)
+Q. to which commit main branch point after checkout
+Q. what is merge commit
 
 
 
