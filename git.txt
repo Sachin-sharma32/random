@@ -1,2 +1,28 @@
-1) what is git
-2)
+Q. what is version control
+Q. what is LVCS, CVCS, DVCS
+Q. what is git
+Q. how does git versioning work
+Q. in which folder git database is stored
+Q. what are the three states in git
+Q. which directory is copied when you git clone
+Q. 2 ways of using git
+Q. what is --system --global --local, which files
+-> git config --list --show-origin (current config)
+-> git config --global user.name "John Doe" 
+-> git config --global user.email johndoe@example.com (needs to be done only once)
+-> git config --global init.defaultBranch main (change default branch name)
+-> git config --list
+-> git config help (concise), git config -h (short)
+Q. work of - git init, git add, git commit
+Q. what are tracked and untracked files
+-> git status -s
+Q. how to track newly added file
+-> .gitignore -> .txt, !index.txt, /TODO (only root TODO file), TODO/ (all files in TODO folder), docs/**/*.txt
+-> git diff (un-staged changes)
+-> git difftool 
+a
+
+
+
+
+

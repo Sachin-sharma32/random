@@ -79,4 +79,5 @@ RUN npm install
 COPY . .
 will be overridden, will extra volume can we add to solve this problem
 Q. does docker give more priority to deeper file path, what's it's use when using bind mounts and anaonymous volume together
+Q. what are the 2 purpose of git add
 Q. 
