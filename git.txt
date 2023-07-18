@@ -67,7 +67,7 @@ Q. explain commit, tree, blob, master and HEAD with diagram
 -> git checkout testing (move HEAD to other branch)
 -> git log testing
 Q. explain what happen when you create commit in new branch with diagram
-Q. 
+Q. hello
 
 
 
