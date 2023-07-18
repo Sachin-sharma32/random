@@ -90,7 +90,32 @@ Q. git-1.png -> what will we merge iss91v2 and dumbidea and them merge dumbidea 
 -> git fetch origin (sync remote work on local)
 -> can add multiple remote url (git remote add tracking {url}), git fetch tracking now does not change the code to the new remote but it add a new remote tracking branch (eg -> tracking/master)
 -> git push origin sachin:main (push local "sachin" into remote "main")
-as
+
+-> git merge origin/sachin (merge remote "sachin" branch into local branch)
+-> git checkout -b sachin origin/sachin
+
+-> when run git clone then a "tracking branch" "master" is created for "upstream branch" "origin/master" which is the remote tracking branch, git pull will automatically merge remote "origin master" into "tracking branch" "master"
+
+-> git checkout -b sachin origin/sachin (creates tracking and upstream branch "sachin" and "origin/sachin" respectively)
+or
+-> git checkout --track origin/sachin
+
+-> git checkout sachin (if branch "sachin" don't exist and there is only one remote branch "sachin" then tracking branch is automatically created)
+
+-> git branch -u origin/master (to change the upstream branch)
+
+-> if tracking branch is set,
+git merge @{u}
+or, 
+git merge @{upstream}
+instead of,
+git merge origin/master
+
+-> git branch -vv (list tracking branch)
+
+-> git fetch --all
+
+
 
 
 
