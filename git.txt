@@ -23,6 +23,19 @@ Q. how to track newly added file
 -> git commit -a (stage and commit with files from previous commit)
 -> git rm index.js (untracked)
 -> git rm --cached index.js (untrack but don't delete)
+--> git log (-p, -1, --stat, --pretty=oneline, --name-only, --name-status)
+->  git log --pretty=format:"%h - %an, %ae, %cn, %ce, %ar : %s"
+-> git log --pretty=online --graph
+-> git log --since=2.hour
+-> git log --until=2.hour
+-> git log --author=sachin
+-> git log -S functionName (commits that changed it)
+-> git log -- /react.txt (commits that changed this file)
+-> git log --no-merges (non merged commits)
+
+
+
+
 
 
 
