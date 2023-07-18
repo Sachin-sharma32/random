@@ -76,7 +76,9 @@ Q. what is merge commit
 -> git branch --merged (branches merged in other branches)
 -> git branch --no-merged (cannot delete before merging in other branch)
 -> git branch -D testing (delete un-merged branch)
--> hello
+-> git branch --move testing old (rename branch)
+-> git push --set-upstream origin old (push new branch name in remote)
+
 
 
 
