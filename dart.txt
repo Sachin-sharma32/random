@@ -1,0 +1,3 @@
+Q. print hello world in dart 
+Q. what is type inference in dart which datatype is used for it 
+Q. 

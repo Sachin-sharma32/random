@@ -53,7 +53,7 @@ git commit --amend -m "changed six" (change name of commit)
 Q. what are 2 types of tags in git
 Q. git tag -a v1.0 -m "first tag"
 -> git show v1.0 (show tag along with it's commit)
--> git tag v3.0 4be30ee (add tags for old commit)
+-> git tag v3.0 4be30ee (add tags forold commit)
 -> git push origin v1.0 (push tag to remote)
 -> git push origin --tags (push all tags)
 -> git push origin --tags --follow-tag (push only annotation tags)
@@ -78,6 +78,27 @@ Q. what is merge commit
 -> git branch -D testing (delete un-merged branch)
 -> git branch --move testing old (rename branch)
 -> git push --set-upstream origin old (push new branch name in remote)
+-> git branch --all (list remote branch also)
+-> git push origin --delete testing (delete testing branch from remote after rename)
+Q. explain long running and topic branch with diagram
+Q. git-1.png -> what will we merge iss91v2 and dumbidea and them merge dumbidea into master, give final diagram
+
+-> git ls-remote https://github.com/Sachin-sharma32/random
+-> git clone {url} -o remote (change the default name of remote (origin) when cloning)
+-> after git clone -> git-2.png (origin/master -> remote tracking branch)
+-> remote tracking branch does not change on your computer if someone pushes commit
+-> git fetch origin (sync remote work on local)
+-> can add multiple remote url (git remote add tracking {url}), git fetch tracking now does not change the code to the new remote but it add a new remote tracking branch (eg -> tracking/master)
+-> 
+
+
+
+
+
+
+
+
+
 
 
 
