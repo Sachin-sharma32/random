@@ -20,7 +20,7 @@ Q. how to track newly added file
 -> .gitignore -> .txt, !index.txt, /TODO (only root TODO file), TODO/ (all files in TODO folder), docs/**/*.txt
 -> git diff (un-staged changes)
 -> git difftool 
-a
+aa
 
 
 
