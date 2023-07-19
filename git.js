@@ -151,7 +151,10 @@ or
 
 //~  DISTRIBUTED WORKFLOWS
 //?  Centralized Workflow 
-// one central repo, multiple nodes (people) can contribute, if first node push code to repo, second node should pull changes of first, make changes and then push
+// one central repo, multiple nodes (people) can contribute, if first node push code to repo, second node should merge changes first, then make changes and then push
+//* git fetch origin
+//* git merge origin/master (git-7.png)
+//* git push origin master (git-8.png)
 //? Integration-Manager Workflow
 // each developer has own repo, can readonly other developer's repo
 // contains "main" repo, developers can clone repo and make their own repo and request main repo maintainer to merge changes from their repo
@@ -161,6 +164,17 @@ or
 // Lieutenant merge these changes
 // Lieutenant request Dictator to merge their master branch into Dictator's master branch
 // good for big projects
+
+//~ CONTRIBUTING
+// remote any whitespace -> git diff --check
+// commit only one issue at a time
+
+//? commit message
+// 50 char summery
+// blank line
+// details explanation
+
+
 
 
 
