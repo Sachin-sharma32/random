@@ -193,7 +193,13 @@ or
 //* git format-patch -1 {commit-id} -o patches  (-1 -> one file, -o patch -> where to save the patch file)
 //* git am {location of patch file}
 
-//? 
+//? if contributor forked main repo
+//* git remote add origin2 {url}
+//* git fetch origin2
+//* git checkout -b test origin2/main
+
+//* git pull {url}  (if you want to get changes but don't want to add it as a remote origin, it will also merge so do it in a new branch)
+
 
 
 
