@@ -174,6 +174,30 @@ or
 // blank line
 // details explanation
 
+// clone repo you want to contribute to in your local machine
+// fork the repo 
+// make a separate branch and push changes to forked repo
+//* git request-pull origin/sachin sachin (changes between local and remote branch)
+// this request can be copied and sent to maintainer
+//! forked public project (5.2)
+//! public project over email (5.2)
+
+//~ MAINTAINING PROJECT
+//* git branch ss/javascript master (making new branch based on master branch)
+// Patch file is a file containing the difference in code between commits
+//? generating patch using diff (don't include author and created info)
+//* git diff > patch_file.patch  (create a patch file)
+//* git apply --check {location of path file}   (check if path can apply cleanly in the current branch)
+//* git apply {location of patch file}  (apply patch to current branch as a new commit)
+//? generating patch using format-path (includes author and time)
+//* git format-patch -1 {commit-id} -o patches  (-1 -> one file, -o patch -> where to save the patch file)
+//* git am {location of patch file}
+
+//? 
+
+
+
+
 
 
 
