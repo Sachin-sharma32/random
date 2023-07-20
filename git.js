@@ -55,7 +55,7 @@
 //? how to remove local branch
 //? how to rename origin to some other name
 //? how to remove remote reference
-
+//--------------------------------------
 //? list all git tags
 //? list all tags starting with v1.0
 //? what are 2 types of tags in git
@@ -80,9 +80,9 @@
 //? what is merge commit
 //? last commit of each branch
 //? list branches merged into current branch
-// git branch --no-merged (cannot delete before merging in other branch)
-// git branch -D testing (delete un-merged branch)
-// git branch --move testing old (rename branch)
+//? list branchs not merged into current branch
+//? delete a branch
+//? rename a branch
 // git push --set-upstream origin old (push new branch name in remote)
 // git branch --all (list remote branch also)
 // git push origin --delete testing (delete testing branch from remote after rename)
