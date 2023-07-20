@@ -51,7 +51,7 @@
 // hello
 // git fetch origin (pull changes into local repo, works for cloned repo also)
 // git pull (if only one remove repo)
-// git remote show origin (info about remote)
+// git remote show origin (info about remote) ss
 // git remote rename origin sachin
 // git remote rm origin
 
