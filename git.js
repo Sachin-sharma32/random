@@ -7,15 +7,14 @@
 //? which directory is copied when you git clone
 //? 2 ways of using git
 //? what is --system --global --local, which files
-// git config --list --show-origin (current config)
-// git config --global user.name "John Doe" 
-// git config --global user.email johndoe@example.com (needs to be done only once)
-// git config --global init.defaultBranch main (change default branch name)
-// git config --list
-// git config help (concise), git config -h (short)
+//? list all git config for all the three above, also show their location
+//? change username and email for all the three above
+//? change the default branch name in all 3 above
+//? short and long way to know about a git command
+
 //? work of - git init, git add, git commit
 //? what are tracked and untracked files
-// git status -s
+//? how to see status in long and short
 //? how to track newly added file
 // .gitignore // .txt, !index.txt, /TODO (only root TODO file), TODO/ (all files in TODO folder), docs/**/*.txt
 // git diff (un-staged changes)
