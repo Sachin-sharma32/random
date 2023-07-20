@@ -80,7 +80,7 @@
 //? what is merge commit
 //? last commit of each branch
 //? list branches merged into current branch
-//? list branchs not merged into current branch
+//? list branches not merged into current branch
 //? delete a branch
 //? rename a branch
 //? push a local branch to remote and make it a upstream branch
