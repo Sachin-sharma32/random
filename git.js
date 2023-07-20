@@ -16,7 +16,6 @@
 //? what are tracked and untracked files
 //? how to see status in long and short
 //? how to track newly added file
-// .gitignore // .txt, !index.txt, /TODO (only root TODO file), TODO/ (all files in TODO folder), docs/**/*.txt
 //? how to prevent file from adding in staging area
 //? how to ignore -> text file, don't ignore index.txt, ignore global index.js, ignore src folder, ignore all .js files and folder in "docs" at any level
 //? how to check un-staged changes
@@ -36,7 +35,7 @@
 //? commit history with specific author name
 //? commit history from all branches
 //? commit history from specific contributor
-//? commit history where a particular text/fn changed 
+//? commit history where a particular text/fn changed
 //? commit history where a particular file changed
 //? commit history of all commits that were not merged in other branch
 //? commit history of all commit that were merged in other branches
@@ -53,8 +52,8 @@
 //? how to get more info about remote branch
 //? rename local branch name
 //? how to remove local branch
-// git remote rename origin sachin
-// git remote rm origin
+//? how to rename origin to some other name
+//? how to remove remote reference
 
 // git tag
 // git tag -l v1.0 (list all tags starting with 1.0)
@@ -105,7 +104,7 @@
 // when run git clone then a "tracking branch" "master" is created for "upstream branch" "origin/master" which is the remote tracking branch, git pull will automatically merge remote "origin master" into "tracking branch" "master"
 
 // git checkout -b sachin origin/sachin (creates tracking and upstream branch "sachin" and "origin/sachin" respectively)
-or
+or;
 // git checkout --track origin/sachin
 
 // git checkout sachin (if branch "sachin" don't exist and there is only one remote branch "sachin" then tracking branch is automatically created)
@@ -114,7 +113,7 @@ or
 
 // if tracking branch is set,
 // git merge @{u}
-//* or, 
+//* or,
 // git merge @{upstream}
 //* instead of,
 // git merge origin/master
@@ -129,7 +128,7 @@ or
 
 // 2 ways to integrate one branch into another // "merge" and "rebase"
 // in "rebase" instead of three-way merging (git-3.png) which git merge does,
-//changes are fetched into the commit (git-4.png) 
+//changes are fetched into the commit (git-4.png)
 // rebase is cleaner as it doesn't add a new commit
 
 //  git rebase --onto master server client (git-5.png, git-6.png, base the commits of "client" branch directly off "master" branch)
@@ -156,9 +155,8 @@ or
 
 // instead of hosting git repo on your own server, you can use github
 
-
 //~  DISTRIBUTED WORKFLOWS
-//?  Centralized Workflow 
+//?  Centralized Workflow
 // one central repo, multiple nodes (people) can contribute, if first node push code to repo, second node should merge changes first, then make changes and then push
 //* git fetch origin
 //* git merge origin/master (git-7.png)
@@ -183,7 +181,7 @@ or
 // details explanation
 
 // clone repo you want to contribute to in your local machine
-// fork the repo 
+// fork the repo
 // make a separate branch and push changes to forked repo
 //* git request-pull origin/sachin sachin (changes between local and remote branch)
 // this request can be copied and sent to maintainer
@@ -207,46 +205,3 @@ or
 //* git checkout -b test origin2/main
 
 //* git pull {url}  (if you want to get changes but don't want to add it as a remote origin, it will also merge so do it in a new branch)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
