@@ -70,13 +70,11 @@
 
 //? make a git alias for 'git log --oneline'
 //? explain commit, tree, blob, master and HEAD with diagram
-// git branch testing (new branch)
-// git log --oneline --decorate (which branch currently on)
-// git checkout testing (move HEAD to other branch)
-// git log testing
+//? create a new branch
+//? how to move HEAD to other branch
+//? print git history of specific branch
 //? explain what happen when you create commit in new branch with diagram
-// git log --oneline --decorate --graph --all
-// git checkout -b testing (create and switch)
+//? how to create and switch branch at the same time
 // git merge testing (merge changes)
 //? to which commit main branch point after checkout
 //? what is merge commit
