@@ -22,8 +22,8 @@
 //? how to check un-staged changes
 //? how to check un-staged changes in vim
 //? how to stage and commit at the same time
-// git rm index.js (untracked)
-// git rm --cached index.js (untrack but don't delete)
+//? how to untracked a file and delete
+//? how to untracked file but don't delete
 -// git log (-p, -1, --stat, --pretty=oneline, --name-only, --name-status)
 //  git log --pretty=format:"%h - %an, %ae, %cn, %ce, %ar : %s"
 // git log --pretty=online --graph
