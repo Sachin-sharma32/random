@@ -48,6 +48,7 @@
 //? restore a file as it was in any previous commit
 //? list name of remote repo
 //? list url of remote repo
+// hello
 // git fetch origin (pull changes into local repo, works for cloned repo also)
 // git pull (if only one remove repo)
 // git remote show origin (info about remote)
