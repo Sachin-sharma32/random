@@ -83,7 +83,7 @@
 //? list branchs not merged into current branch
 //? delete a branch
 //? rename a branch
-// git push --set-upstream origin old (push new branch name in remote)
+//? push a local branch to remote and make it a upstream branch
 // git branch --all (list remote branch also)
 // git push origin --delete testing (delete testing branch from remote after rename)
 //? explain long running and topic branch with diagram
