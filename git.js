@@ -51,6 +51,8 @@
 //? get latest changes from remote repo into local
 //? move HEAD to origin/main after fetching latest changes from specific remote branch
 //? how to get more info about remote branch
+//? rename local branch name
+//? how to remove local branch
 // git remote rename origin sachin
 // git remote rm origin
 
