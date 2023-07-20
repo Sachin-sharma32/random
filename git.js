@@ -41,11 +41,8 @@
 //? commit history of all commits that were not merged in other branch
 //? commit history of all commit that were merged in other branches
 
-//? (making changes to previous commit)
-// git commit -m "six"
-// git add index.txt
-// git commit --amend --no-edit (add index.txt to commit)
-// git commit --amend -m "changed six" (change name of commit)
+//? add a file for tracking in previous commit
+//? change the message of previous commit
 
 // git reset HEAD index.txt (un-stage file)
 // git checkout -- index.txt (discard changed made after commit)
