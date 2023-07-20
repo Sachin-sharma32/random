@@ -17,9 +17,11 @@
 //? how to see status in long and short
 //? how to track newly added file
 // .gitignore // .txt, !index.txt, /TODO (only root TODO file), TODO/ (all files in TODO folder), docs/**/*.txt
-// git diff (un-staged changes)
-// git difftool 
-// git commit -a (stage and commit with files from previous commit)
+//? how to prevent file from adding in staging area
+//? how to ignore -> text file, don't ignore index.txt, ignore global index.js, ignore src folder, ignore all .js files and folder in "docs" at any level
+//? how to check un-staged changes
+//? how to check un-staged changes in vim
+//? how to stage and commit at the same time
 // git rm index.js (untracked)
 // git rm --cached index.js (untrack but don't delete)
 -// git log (-p, -1, --stat, --pretty=oneline, --name-only, --name-status)
