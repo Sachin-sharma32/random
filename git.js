@@ -76,6 +76,7 @@
 //? explain what happen when you create commit in new branch with diagram
 //? how to create and switch branch at the same time
 // git merge testing (merge changes)
+// hello
 //? to which commit main branch point after checkout
 //? what is merge commit
 // git branch -v (last commit)
