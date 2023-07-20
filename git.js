@@ -75,12 +75,11 @@
 //? print git history of specific branch
 //? explain what happen when you create commit in new branch with diagram
 //? how to create and switch branch at the same time
-// git merge testing (merge changes)
-// hello
+//? how to merge one branch into another
 //? to which commit main branch point after checkout
 //? what is merge commit
-// git branch -v (last commit)
-// git branch --merged (branches merged in other branches)
+//? last commit of each branch
+//? list branches merged into current branch
 // git branch --no-merged (cannot delete before merging in other branch)
 // git branch -D testing (delete un-merged branch)
 // git branch --move testing old (rename branch)
