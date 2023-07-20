@@ -24,15 +24,22 @@
 //? how to stage and commit at the same time
 //? how to untracked a file and delete
 //? how to untracked file but don't delete
--// git log (-p, -1, --stat, --pretty=oneline, --name-only, --name-status)
-//  git log --pretty=format:"%h - %an, %ae, %cn, %ce, %ar : %s"
-// git log --pretty=online --graph
-// git log --since=2.hour
-// git log --until=2.hour
-// git log --author=sachin
-// git log -S functionName (commits that changed it)
-// git log -- /react.txt (commits that changed this file)
-// git log --no-merges (non merged commits)
+//? show commit history
+//? show commit history with changes make in each commit
+//? show commit history with number of lines added/deleted in each commit
+//? shhow commit history in one line and graph
+//? show commit history with name of files changes
+//? show commit history with status of changed files
+//? show commit history in format -> id - author name, author email, contributor name, contributor email, date : message
+//? commit history in last 2 hour
+//? commit history before 2 hour
+//? commit history with specific author name
+//? commit history from all branches
+//? commit history from specific contributor
+//? commit history where a particular text/fn changed 
+//? commit history where a particular file changed
+//? commit history of all commits that were not merged in other branch
+//? commit history of all commit that were merged in other branches
 
 //? (making changes to previous commit)
 // git commit -m "six"
