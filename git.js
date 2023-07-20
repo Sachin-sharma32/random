@@ -84,8 +84,8 @@
 //? delete a branch
 //? rename a branch
 //? push a local branch to remote and make it a upstream branch
-// git branch --all (list remote branch also)
-// git push origin --delete testing (delete testing branch from remote after rename)
+//? list all branches including remote branch
+//? delete a remote branch
 //? explain long running and topic branch with diagram
 //? git-1.png // what will we merge iss91v2 and dumbidea and them merge dumbidea into master, give final diagram
 
