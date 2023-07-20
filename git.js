@@ -25,8 +25,9 @@
 //? how to untracked file but don't delete
 //? show commit history
 //? show commit history with changes make in each commit
+//? show 5 commit history
 //? show commit history with number of lines added/deleted in each commit
-//? shhow commit history in one line and graph
+//? show commit history in one line and graph
 //? show commit history with name of files changes
 //? show commit history with status of changed files
 //? show commit history in format -> id - author name, author email, contributor name, contributor email, date : message
@@ -37,8 +38,8 @@
 //? commit history from specific contributor
 //? commit history where a particular text/fn changed
 //? commit history where a particular file changed
-//? commit history of all commits that were not merged in other branch
-//? commit history of all commit that were merged in other branches
+//? commit history of all commits that are not merge branches
+//? commit history of all the merged branches
 
 //? add a file for tracking in previous commit
 //? change the message of previous commit
