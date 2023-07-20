@@ -48,10 +48,9 @@
 //? restore a file as it was in any previous commit
 //? list name of remote repo
 //? list url of remote repo
-// hello
-// git fetch origin (pull changes into local repo, works for cloned repo also)
-// git pull (if only one remove repo)
-// git remote show origin (info about remote) ss
+//? get latest changes from remote repo into local
+//? move HEAD to origin/main after fetching latest changes from specific remote branch
+//? how to get more info about remote branch
 // git remote rename origin sachin
 // git remote rm origin
 
