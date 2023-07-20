@@ -49,26 +49,26 @@
 //? list name of remote repo
 //? list url of remote repo
 //? get latest changes from remote repo into local
-//? move HEAD to origin/main after fetching latest changes from specific remote branch
+//? move HEAD and branch to origin/main after fetching latest changes from specific remote branch
 //? how to get more info about remote branch
 //? rename local branch name
 //? how to remove local branch
 //? how to rename origin to some other name
 //? how to remove remote reference
 
-// git tag
-// git tag -l v1.0 (list all tags starting with 1.0)
+//? list all git tags
+//? list all tags starting with v1.0
 //? what are 2 types of tags in git
-//? git tag -a v1.0 -m "first tag"
-// git show v1.0 (show tag along with it's commit)
-// git tag v3.0 4be30ee (add tags forold commit)
-// git push origin v1.0 (push tag to remote)
-// git push origin --tags (push all tags)
-// git push origin --tags --follow-tag (push only annotation tags)
-// git tag -d v1.0 (delete)
-// git push origin --delete v1.0 (delete from remote)
+//? make a annotation tag
+//? show tag along with it's commit
+//? add tag to an old commit
+//? push a tag to remote
+//? push all tags to remote
+//? push only annotation tags to remote
+//? delete a local tag
+//? delete a remote tag
 
-// git config --global alias.last 'log -1'
+//? make a git alias for 'git log --oneline'
 //? explain commit, tree, blob, master and HEAD with diagram
 // git branch testing (new branch)
 // git log --oneline --decorate (which branch currently on)
