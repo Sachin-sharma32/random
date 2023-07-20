@@ -44,9 +44,10 @@
 //? add a file for tracking in previous commit
 //? change the message of previous commit
 
-// git reset HEAD index.txt (un-stage file)
-// git checkout -- index.txt (discard changed made after commit)
-// git remote -v (hosted repo)
+//? restore a file as it was in previous commit
+//? restore a file as it was in any previous commit
+//? list name of remote repo
+//? list url of remote repo
 // git fetch origin (pull changes into local repo, works for cloned repo also)
 // git pull (if only one remove repo)
 // git remote show origin (info about remote)
