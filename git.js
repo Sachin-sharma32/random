@@ -88,9 +88,9 @@
 //? delete a remote branch
 //? explain long running and topic branch with diagram
 //? git-1.png // what if we merge iss91v2 and dumbidea and them merge that new branch into master, give final diagram
-
+//------------------------------
 //* git ls-remote https://?github.com/Sachin-sharma32/random
-// git clone {url} -o remote (change the default name of remote (origin) when cloning)
+//? change the remote name of cloned repo
 // after git clone // git-2.png (origin/master // remote tracking branch)
 // remote tracking branch does not change on your computer if someone pushes commit
 // git fetch origin (sync remote work on local)
